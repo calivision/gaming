@@ -206,3 +206,14 @@ This requires the full list generated previously. I will add the "Perceived Weak
 *   **Crucially, the Hendon Mob data is required for a genuine assessment of player quality.** A player with $2M in winnings but a short stack is far more dangerous than a player with $0 winnings but a large stack due to a lucky hand.
 *   SuperSystem and Sklansky emphasize understanding opponent types and adapting. A large stack might be a maniac (exploitable) or a killer (avoidable). A short stack might be tight (steal from) or aggressive (trap). Observation is key.
 *   Use this ranking as a starting point to prioritize which tables might require more careful play or present greater challenges *based on current chip dynamics*. Fill in the Hendon Mob data to get a much clearer picture.
+
+
+**List of Perceived Weakness Metrics:**
+
+Here are the distinct metrics used in the "Perceived Weakness" column, based on chip stack generalizations:
+
+*   **Potential Overconfidence / Running Hot:** Assigned to players with large stacks (>180k). Implies they might be playing looser or overvaluing hands due to recent success, or simply accumulating through strong play/luck, giving them table presence.
+*   **Potential ABC Play / Lack of Leverage:** Assigned to players with medium stacks (roughly 70k-179k). Suggests they may play a more standard, predictable game and lack the stack size to exert significant pressure or make complex bluffs effectively.
+*   **Desperation / Predictable Push/Fold Range:** Assigned to players with very short stacks (< approx. 45k-50k). Indicates they have limited options, are likely looking for spots to shove all-in, and their hand ranges for doing so might be predictable.
+*   **Desperation / Limited Post-Flop Play:** Assigned to players with short stacks (specifically the 48k stack, bridging the gap). Similar to the above but acknowledging a slightly larger stack than the absolute shortest.
+*   **Potential Limited Post-Flop Play / Pressure:** Assigned to players with moderately short stacks (approx. 50k-70k). Suggests they are under pressure, might avoid complex post-flop situations, and their decisions are heavily influenced by stack preservation or finding a double-up spot.
