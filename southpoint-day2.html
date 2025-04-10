@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Point Day 2 Analysis</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h2, h3 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        ol, ul {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+             font-weight: bold;
+        }
+         em {
+             font-style: italic;
+        }
+        .rationale {
+            margin-left: 20px;
+            font-style: italic;
+            color: #555;
+        }
+        .chip-count {
+             /* Optional: style chip counts slightly differently */
+             /* font-family: monospace; */
+        }
+        .warning {
+            color: #c00;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>South Point Day 2 - Table Analysis</h2>
+
+    <p><strong>Important Caveat:</strong> Ranking tables and assessing players <em>without</em> the benefit of actual Hendon Mob winnings data or direct observation is inherently speculative. Chip counts are a snapshot in time, heavily influenced by recent luck and starting stack dynamics, not just pure skill. However, drawing on principles from SuperSystem and Sklansky, we can make educated inferences based on stack distributions.</p>
+
+    <h3>Chosen Metric: "Potential Threat Index"</h3>
+
+    <p>I will rank the tables based on a "Potential Threat Index". This metric considers:</p>
+    <ol>
+        <li><strong>Concentration of Large Stacks:</strong> Tables with multiple players holding significantly above-average chip stacks often indicate tougher competition, either through skill in accumulation or players running hot who can exert pressure. These tables require more complex navigation.</li>
+        <li><strong>Presence of Very Short Stacks:</strong> A high number of desperate short stacks increases variance and changes table dynamics, but doesn't necessarily indicate a <em>skilled</em> table overall. It often signals potential for frequent all-ins and less post-flop play.</li>
+    </ol>
+
+    <p>For this analysis, let's estimate the overall average stack across all players listed is roughly <strong>~115,000 - 125,000</strong>.</p>
+    <ul>
+        <li><strong>Large Stack:</strong> Defined as > 180,000 chips.</li>
+        <li><strong>Short Stack:</strong> Defined as < 50,000 chips (often indicating < 20-25 Big Blinds depending on structure, putting them in a push/fold or desperation mode).</li>
+    </ul>
+
+    <h3>Table Ranking by Potential Threat Index (Highest Threat First):</h3>
+
+    <ol>
+        <li>
+            <strong>Table 41:</strong> (Avg Stack ~118k)
+            <ul>
+                <li><em>Large Stacks (3):</em> Truong (<span class="chip-count">184k</span>), Leng (<span class="chip-count">195k</span>), Quint (<span class="chip-count">183k</span>)</li>
+                <li><em>Short Stacks (2):</em> Taitano (<span class="chip-count">22k</span>), Beavers (<span class="chip-count">17k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Highest concentration of solid, large (but not monster) stacks. Suggests multiple players performing well and capable of applying pressure. Fewer short stacks compared to other high-stack tables. Perceived as potentially the most skilled/currently dangerous overall.</p>
+        </li>
+        <li>
+            <strong>Table 39:</strong> (Avg Stack ~113k)
+            <ul>
+                <li><em>Large Stacks (2):</em> Cho (Peter) (<span class="chip-count">201k</span>), Lin (<span class="chip-count">289k</span>)</li>
+                <li><em>Short Stacks (2):</em> Mojgan (<span class="chip-count">73k</span> - borderline), Alspach (<span class="chip-count">39k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Two significant stacks, including one very large one (Lin). Indicates consolidation of chips and players who can dictate action.</p>
+        </li>
+        <li>
+            <strong>Table 36:</strong> (Avg Stack ~141k)
+            <ul>
+                <li><em>Large Stacks (2):</em> Tekely (<span class="chip-count">234k</span>), Smallwood (<span class="chip-count">295k</span>)</li>
+                <li><em>Short Stacks (2):</em> Hsu (<span class="chip-count">21k</span>), Wei Liu (<span class="chip-count">27k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Two very large stacks dominate. High average stack suggests chips are concentrated here. Significant threat potential from the leaders.</p>
+        </li>
+         <li>
+            <strong>Table 31:</strong> (Avg Stack ~135k)
+            <ul>
+                <li><em>Large Stacks (2):</em> Struckman (<span class="chip-count">212k</span>), Kishimoto (<span class="chip-count">216k</span>). (Borderline: Xhelili <span class="chip-count">171k</span>, Filipek <span class="chip-count">162k</span>)</li>
+                <li><em>Short Stacks (2):</em> Luksza (<span class="chip-count">33k</span>), Ghiloni (<span class="chip-count">52k</span> - borderline)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Multiple players with healthy-to-large stacks. Feels like a balanced but competitive table with fewer immediate short-stack all-in threats.</p>
+        </li>
+         <li>
+            <strong>Table 33:</strong> (Avg Stack ~138k)
+            <ul>
+                <li><em>Large Stacks (3):</em> Lee (<span class="chip-count">179k</span> - borderline), Macaluso (<span class="chip-count">341k</span>), Enge (<span class="chip-count">184k</span>)</li>
+                <li><em>Short Stacks (3):</em> Pasternak (<span class="chip-count">38k</span>), Courchesne (<span class="chip-count">23k</span>), Flora (<span class="chip-count">57k</span> - borderline)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> One monster stack (Macaluso) dictates much of the action, supported by two others. However, the high number of shorter stacks increases variance potential.</p>
+        </li>
+         <li>
+            <strong>Table 43:</strong> (Avg Stack ~117k)
+            <ul>
+                <li><em>Large Stacks (3):</em> Song (<span class="chip-count">213k</span>), Monaldi (<span class="chip-count">204k</span>), Johnson (<span class="chip-count">204k</span>)</li>
+                <li><em>Short Stacks (3):</em> Jones (<span class="chip-count">43k</span>), Moore (<span class="chip-count">45k</span>), Powell (<span class="chip-count">38k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Similar to T33 with multiple large stacks, but also many short stacks creating a volatile environment likely prone to all-ins.</p>
+        </li>
+        <li>
+            <strong>Table 37:</strong> (Avg Stack ~131k)
+            <ul>
+                <li><em>Large Stacks (2):</em> Hook Jr (<span class="chip-count">232k</span>), Ramirez (<span class="chip-count">220k</span>)</li>
+                <li><em>Short Stacks (2):</em> Kadar (<span class="chip-count">9k</span>), Naruck (<span class="chip-count">48k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Two clear chip leaders who can apply pressure. Standard distribution otherwise.</p>
+        </li>
+        <li>
+            <strong>Table 32:</strong> (Avg Stack ~109k)
+            <ul>
+                <li><em>Large Stacks (2):</em> Thammavongsa (<span class="chip-count">218k</span>), Shishido (<span class="chip-count">189k</span>)</li>
+                <li><em>Short Stacks (1):</em> Zimmerman (<span class="chip-count">25k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Two strong stacks, relatively balanced otherwise with fewer immediate short stack pressures compared to some others.</p>
+        </li>
+        <li>
+            <strong>Table 38:</strong> (Avg Stack ~131k)
+            <ul>
+                <li><em>Large Stacks (2):</em> Debella (<span class="chip-count">206k</span>), Phanyaseng (<span class="chip-count">250k</span>)</li>
+                <li><em>Short Stacks (2):</em> Lyvers (<span class="chip-count">5k</span>), Rapp (<span class="chip-count">11k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Two significant stacks, but also two extremely short stacks likely to be all-in very soon, potentially changing the dynamic quickly.</p>
+        </li>
+        <li>
+            <strong>Table 46:</strong> (Avg Stack ~108k)
+            <ul>
+                <li><em>Large Stacks (2):</em> Dexter (<span class="chip-count">188k</span>), Lounsbury (<span class="chip-count">176k</span> - borderline)</li>
+                <li><em>Short Stacks (3):</em> Park (Seung) (<span class="chip-count">32k</span>), Nicholas (<span class="chip-count">44k</span>), Ferrante (<span class="chip-count">29k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Decent top stacks but a high number of short stacks increases potential variance.</p>
+        </li>
+        <li>
+            <strong>Table 34:</strong> (Avg Stack ~113k)
+            <ul>
+                <li><em>Large Stacks (2):</em> Caday (<span class="chip-count">302k</span>), Justin (<span class="chip-count">185k</span>)</li>
+                <li><em>Short Stacks (4):</em> Agudelo Zuluaga (<span class="chip-count">26k</span>), Zhu (<span class="chip-count">31k</span>), Palencia (<span class="chip-count">12k</span>), Lamello (<span class="chip-count">68k</span> - borderline)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> One dominant stack (Caday) and another large one, but offset by a large number of short stacks. Likely a table with high volatility and push/fold dynamics.</p>
+        </li>
+        <li>
+            <strong>Table 35:</strong> (Avg Stack ~118k)
+            <ul>
+                <li><em>Large Stacks (1):</em> Liss (<span class="chip-count">341k</span>)</li>
+                <li><em>Short Stacks (2):</em> Poole (<span class="chip-count">22k</span>), Guirn (<span class="chip-count">4k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Dominated by one massive stack (Liss). While Liss is a huge threat, the <em>overall</em> table threat might be lower if other stacks are average and non-confrontational. High potential for Liss to control the table.</p>
+        </li>
+        <li>
+            <strong>Table 42:</strong> (Avg Stack ~100k)
+            <ul>
+                <li><em>Large Stacks (1):</em> Park (Henry) (<span class="chip-count">270k</span>)</li>
+                <li><em>Short Stacks (4):</em> Stefan (<span class="chip-count">54k</span> - borderline), Heinly (<span class="chip-count">42k</span>), Hashimoto (<span class="chip-count">41k</span>), Caeg (<span class="chip-count">43k</span>)</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Similar to T35, one dominant stack but with even more short stacks, making it highly volatile and potentially less about deep-stack skill interplay.</p>
+        </li>
+         <li>
+            <strong>Table 40:</strong> (Avg Stack ~109k)
+            <ul>
+                <li><em>Large Stacks (1):</em> Choy (<span class="chip-count">262k</span>)</li>
+                <li><em>Short Stacks (0):</em> None strictly below 50k.</li>
+            </ul>
+            <p class="rationale"><em>Rationale:</em> Only one truly large stack. The rest are medium-to-healthy. Seems potentially less threatening overall compared to tables with multiple large stacks, despite Choy's presence.</p>
+        </li>
+    </ol>
+
+    <h3>Player List with Perceived Weaknesses (Based <em>Solely</em> on Chip Count - Highly Speculative)</h3>
+
+    <p>This requires the full list generated previously. I will add the "Perceived Weakness" column based on the stack categories defined above.</p>
+    <p><strong class="warning">Remember: This is a massive generalization without real data!</strong> A large stack could be luck; a short stack could be a great player who got unlucky.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>First</th>
+                <th>Last</th>
+                <th>Chips</th>
+                <th>Table</th>
+                <th>Seat</th>
+                <th>Hendon Mob Winnings</th>
+                <th>Perceived Weakness (Chip Stack Based - Speculative)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>MICHAEL</td><td>HOOK JR</td><td>232,000</td><td>37</td><td>1</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>CHRISTOPHER</td><td>RAMIREZ</td><td>220,000</td><td>37</td><td>2</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>LARRY</td><td>KEHM</td><td>89,000</td><td>37</td><td>3</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>JAMES</td><td>KOWALL</td><td>127,000</td><td>37</td><td>4</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>PETER</td><td>PRIMIANO</td><td>96,000</td><td>37</td><td>5</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>MICHAEL</td><td>KADAR</td><td>9,000</td><td>37</td><td>7</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>MIKE</td><td>ZALOZNYY</td><td>142,000</td><td>37</td><td>8</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>RONALD</td><td>NARUCK</td><td>48,000</td><td>37</td><td>9</td><td>(Lookup Needed)</td><td>Desperation / Limited Post-Flop Play</td></tr>
+            <tr><td>LUKE</td><td>JOHNSTON</td><td>149,000</td><td>46</td><td>1</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>KOSTA</td><td>TRIGATZI</td><td>59,000</td><td>46</td><td>2</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>PHILIP</td><td>LOUNSBURY</td><td>176,000</td><td>46</td><td>3</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>LYNNE</td><td>MITCHNICK</td><td>109,000</td><td>46</td><td>4</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>SEUNG</td><td>PARK</td><td>32,000</td><td>46</td><td>5</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>JOHN</td><td>DEXTER</td><td>188,000</td><td>46</td><td>6</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>LAURIE</td><td>NICHOLAS</td><td>44,000</td><td>46</td><td>7</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>BRIAN</td><td>SIMON</td><td>94,000</td><td>46</td><td>8</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>ALAN</td><td>FERRANTE</td><td>29,000</td><td>46</td><td>9</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>BRANKO</td><td>HANSULL</td><td>136,000</td><td>34</td><td>1</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>THERESA</td><td>JUSTIN</td><td>185,000</td><td>34</td><td>2</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>LOUIE</td><td>CADAY</td><td>302,000</td><td>34</td><td>3</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>JAIME</td><td>AGUDELO ZULUAGA</td><td>26,000</td><td>34</td><td>4</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>MIKE</td><td>ZHU</td><td>31,000</td><td>34</td><td>5</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>ANTHONY</td><td>GAUTIERI</td><td>74,000</td><td>34</td><td>6</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>CONCORDIO</td><td>BAGAPORO</td><td>100,000</td><td>34</td><td>7</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>IAN</td><td>PALENCIA</td><td>12,000</td><td>34</td><td>8</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>DANIEL</td><td>LAMELLO</td><td>68,000</td><td>34</td><td>9</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>LARRY</td><td>TRUONG</td><td>184,000</td><td>41</td><td>1</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>PAUL</td><td>PIRRONE</td><td>74,000</td><td>41</td><td>2</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>JEFFREY</td><td>CROSS</td><td>114,000</td><td>41</td><td>3</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>NORMAN</td><td>TAITANO</td><td>22,000</td><td>41</td><td>4</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>VITT</td><td>LENG</td><td>195,000</td><td>41</td><td>6</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>JOSHUA</td><td>QUINT</td><td>183,000</td><td>41</td><td>7</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>KENNETH</td><td>BEAVERS</td><td>17,000</td><td>41</td><td>8</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>PERCIVAL</td><td>ANDRADA</td><td>60,000</td><td>41</td><td>9</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>PAUL</td><td>MAIER</td><td>78,000</td><td>35</td><td>1</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>ELI</td><td>JAMES</td><td>81,000</td><td>35</td><td>2</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>KIM</td><td>FRASER</td><td>91,000</td><td>35</td><td>3</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>PAUL</td><td>POOLE</td><td>22,000</td><td>35</td><td>4</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>JESUS</td><td>SELUDO</td><td>78,000</td><td>35</td><td>5</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>JACOB</td><td>LISS</td><td>341,000</td><td>35</td><td>6</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>MANUEL</td><td>MARTIN</td><td>128,000</td><td>35</td><td>7</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>DEANNE</td><td>KIMHAN</td><td>76,000</td><td>35</td><td>8</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>TIR</td><td>GUIRN</td><td>4,000</td><td>35</td><td>9</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>HENRY</td><td>PARK</td><td>270,000</td><td>42</td><td>1</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>MICU</td><td>STEFAN</td><td>54,000</td><td>42</td><td>2</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>CANDY</td><td>HEINLY</td><td>42,000</td><td>42</td><td>3</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>TARO</td><td>HASHIMOTO</td><td>41,000</td><td>42</td><td>4</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>STEVEN</td><td>RAINEY</td><td>125,000</td><td>42</td><td>5</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>CARL</td><td>DREWNOWSKI</td><td>100,000</td><td>42</td><td>6</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>LLOYD</td><td>GAGNON</td><td>55,000</td><td>42</td><td>7</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>DAVID</td><td>CHANDULUY</td><td>136,000</td><td>42</td><td>8</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>MAYNARDO</td><td>CAEG</td><td>43,000</td><td>42</td><td>9</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>BONIFACIO</td><td>KIAMAR</td><td>135,000</td><td>36</td><td>1</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>GERALD</td><td>KLICK</td><td>75,000</td><td>36</td><td>2</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>GARY</td><td>TEKELY</td><td>234,000</td><td>36</td><td>3</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>TYRONE</td><td>WILLIAMS II</td><td>88,000</td><td>36</td><td>4</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>RICHARD</td><td>HSU</td><td>21,000</td><td>36</td><td>6</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>WEI LIU</td><td>WEI LIU</td><td>27,000</td><td>36</td><td>7</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>AUSTIN</td><td>SIMMERMAN</td><td>100,000</td><td>36</td><td>8</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>JAMES</td><td>SMALLWOOD</td><td>295,000</td><td>36</td><td>9</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>SUNG</td><td>SONG</td><td>213,000</td><td>43</td><td>1</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>ELLEN</td><td>LAZAR</td><td>131,000</td><td>43</td><td>2</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>RICHARD</td><td>JONES</td><td>43,000</td><td>43</td><td>3</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>JEFFREY</td><td>MOORE</td><td>45,000</td><td>43</td><td>4</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>LAZARE</td><td>BUI</td><td>68,000</td><td>43</td><td>5</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>LINDA</td><td>POWELL</td><td>38,000</td><td>43</td><td>6</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>ALEX</td><td>EATON</td><td>70,000</td><td>43</td><td>7</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>GREGORY</td><td>MONALDI</td><td>204,000</td><td>43</td><td>8</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>DAVID</td><td>JOHNSON</td><td>204,000</td><td>43</td><td>9</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>KENNETH</td><td>STRUCKMAN</td><td>212,000</td><td>31</td><td>1</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>TROY</td><td>RUESTMAN</td><td>148,000</td><td>31</td><td>2</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>WARD</td><td>KISHIMOTO</td><td>216,000</td><td>31</td><td>3</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>PETRIT</td><td>XHELILI</td><td>171,000</td><td>31</td><td>4</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>PING</td><td>CHANG</td><td>66,000</td><td>31</td><td>5</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>RICHARD</td><td>LUKSZA</td><td>33,000</td><td>31</td><td>6</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>JOHN</td><td>FILIPEK</td><td>162,000</td><td>31</td><td>8</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>THOMAS</td><td>GHILONI</td><td>52,000</td><td>31</td><td>9</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>RICHARD</td><td>MCDONALD</td><td>91,000</td><td>38</td><td>1</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>PAUL</td><td>ENRIGHT</td><td>90,000</td><td>38</td><td>2</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>ANTHONY</td><td>DEBELLA</td><td>206,000</td><td>38</td><td>3</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>GARY</td><td>COOPER</td><td>106,000</td><td>38</td><td>4</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>ALLEN</td><td>LYVERS</td><td>5,000</td><td>38</td><td>5</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>ROBERT</td><td>ZIPKIN</td><td>130,000</td><td>38</td><td>6</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>JOHN</td><td>RAPP</td><td>11,000</td><td>38</td><td>7</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>AIRY</td><td>PHANYASENG</td><td>250,000</td><td>38</td><td>8</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>PEGGY</td><td>FOSTER</td><td>94,000</td><td>32</td><td>1</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>ROYA</td><td>HAKIM</td><td>85,000</td><td>32</td><td>2</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>BRYAN</td><td>THAMMAVONGSA</td><td>218,000</td><td>32</td><td>3</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>STEVEN</td><td>DEUTSCH</td><td>129,000</td><td>32</td><td>4</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>PETER</td><td>SPOTTI</td><td>80,000</td><td>32</td><td>5</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>JAMES</td><td>ZIMMERMAN</td><td>25,000</td><td>32</td><td>6</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>DALE</td><td>SHISHIDO</td><td>189,000</td><td>32</td><td>7</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>VICTOR</td><td>MARZOUQ</td><td>69,000</td><td>32</td><td>8</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>MARVIN</td><td>MASUDA</td><td>68,000</td><td>32</td><td>9</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>PEGGY</td><td>MOJGAN</td><td>73,000</td><td>39</td><td>1</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>PETER</td><td>CHO</td><td>201,000</td><td>39</td><td>2</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>KEIJI</td><td>SUGAWARA</td><td>86,000</td><td>39</td><td>3</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>EDWARD</td><td>KURZ</td><td>118,000</td><td>39</td><td>4</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>VALENTIN</td><td>ALICANTE</td><td>72,000</td><td>39</td><td>5</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>JOE</td><td>CHO</td><td>56,000</td><td>39</td><td>6</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>DAVID</td><td>LIN</td><td>289,000</td><td>39</td><td>7</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>MARIO</td><td>LANZA</td><td>57,000</td><td>39</td><td>8</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>DANIEL</td><td>ALSPACH</td><td>39,000</td><td>39</td><td>9</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>ROSALINDA</td><td>MUDLOFF WONG</td><td>93,000</td><td>33</td><td>1</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>LAP</td><td>LEE</td><td>179,000</td><td>33</td><td>2</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>CHARLES</td><td>MACALUSO</td><td>341,000</td><td>33</td><td>3</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>MARC</td><td>PASTERNAK</td><td>38,000</td><td>33</td><td>4</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>CHERYL</td><td>ENGE</td><td>184,000</td><td>33</td><td>6</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>THOMAS</td><td>FLORA</td><td>57,000</td><td>33</td><td>7</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+            <tr><td>DANIEL</td><td>COURCHESNE</td><td>23,000</td><td>33</td><td>8</td><td>(Lookup Needed)</td><td>Desperation / Predictable Push/Fold Range</td></tr>
+            <tr><td>OTOSILO</td><td>HAVILI</td><td>77,000</td><td>33</td><td>9</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>EARL</td><td>TURNIPSEED</td><td>86,000</td><td>40</td><td>1</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>ORLANDO</td><td>BARRERA</td><td>131,000</td><td>40</td><td>2</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>CHING</td><td>CHOY</td><td>262,000</td><td>40</td><td>3</td><td>(Lookup Needed)</td><td>Potential Overconfidence / Running Hot</td></tr>
+            <tr><td>ERIC</td><td>CLAUSEN</td><td>118,000</td><td>40</td><td>4</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>FREDDIE</td><td>ALCAZAR</td><td>70,000</td><td>40</td><td>5</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>WILLIAM</td><td>KIDWELL</td><td>86,000</td><td>40</td><td>6</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>ROBERT</td><td>CAINA</td><td>104,000</td><td>40</td><td>7</td><td>(Lookup Needed)</td><td>Potential ABC Play / Lack of Leverage</td></tr>
+            <tr><td>WILLIAM</td><td>FROMEL</td><td>66,000</td><td>40</td><td>9</td><td>(Lookup Needed)</td><td>Potential Limited Post-Flop Play / Pressure</td></tr>
+        </tbody>
+    </table>
+
+     <h3>Final Analyst Notes:</h3>
+     <ul>
+         <li>This ranking and weakness assessment is a preliminary analysis based <em>only</em> on chip counts.</li>
+         <li><strong class="warning">Crucially, the Hendon Mob data is required for a genuine assessment of player quality.</strong> A player with $2M in winnings but a short stack is far more dangerous than a player with $0 winnings but a large stack due to a lucky hand.</li>
+         <li>SuperSystem and Sklansky emphasize understanding opponent types and adapting. A large stack might be a maniac (exploitable) or a killer (avoidable). A short stack might be tight (steal from) or aggressive (trap). Observation is key.</li>
+         <li>Use this ranking as a starting point to prioritize which tables might require more careful play or present greater challenges <em>based on current chip dynamics</em>. Fill in the Hendon Mob data to get a much clearer picture.</li>
+     </ul>
+
+</body>
+</html>
